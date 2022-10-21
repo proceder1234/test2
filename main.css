@@ -1,0 +1,706 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html:focus,
+body:focus,
+div:focus,
+span:focus,
+applet:focus,
+object:focus,
+iframe:focus,
+table:focus,
+caption:focus,
+tbody:focus,
+tfoot:focus,
+thead:focus,
+tr:focus,
+th:focus,
+td:focus,
+del:focus,
+dfn:focus,
+em:focus,
+font:focus,
+img:focus,
+ins:focus,
+kbd:focus,
+q:focus,
+s:focus,
+samp:focus,
+small:focus,
+strike:focus,
+strong:focus,
+sub:focus,
+tt:focus,
+var:focus,
+h1:focus,
+h2:focus,
+h3:focus,
+h4:focus,
+h5:focus,
+h6:focus,
+p:focus,
+blockquote:focus,
+pre:focus,
+a:focus,
+abbr:focus,
+acronym:focus,
+address:focus,
+big:focus,
+cite:focus,
+code:focus,
+dl:focus,
+dt:focus,
+dd:focus,
+ol:focus,
+ul:focus,
+fieldset:focus,
+form:focus,
+label:focus,
+legend:focus {
+    outline: 0;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #000000;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../fonts/segoeui.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../fonts/seguisb.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../fonts/segoeuisl.ttf") format("truetype");
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
+}
+
+.landing_wrapper {
+    position: relative;
+    width: 100%;
+    /* max-width: 1024px; */
+    max-width: 1920px;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 1.3;
+    min-width: 320px;
+    background: #020e28;
+    color: #000000;
+    margin: 0px auto;
+    padding-bottom: 70px;
+}
+
+.landing_wrapper * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.landing_wrapper h1,
+.landing_wrapper h2,
+.landing_wrapper h3,
+.landing_wrapper h4,
+.landing_wrapper h5,
+.landing_wrapper h6,
+.landing_wrapper p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.landing_wrapper h1,
+.landing_wrapper h2,
+.landing_wrapper h3,
+.landing_wrapper h4,
+.landing_wrapper h5 {
+    margin-bottom: 30px;
+}
+
+.landing_wrapper h2 {
+    font-size: 28px;
+}
+
+.landing_wrapper h3 {
+    font-size: 24px;
+}
+
+.landing_wrapper h4 {
+    font-size: 22px;
+}
+
+.landing_wrapper h5 {
+    font-size: 18px;
+}
+
+.landing_wrapper p {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.win_landing h1, .win_landing h2, .win_landing h3, .win_landing h4, .win_landing h5, .win_landing p {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+.win_landing .container {
+    max-width: 100%;
+    padding-left: 63px;
+    padding-right: 78px;
+}
+
+.win_landing .header {
+    height: 19.481vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px;
+    background: #000000;
+}
+
+.win_landing .header .win_logo {
+    display: block;
+    object-fit: contain;
+    width: 34.508vw;
+}
+
+.win_landing .header .logo {
+    display: block;
+    object-fit: contain;
+    width: 19.109vw;
+}
+
+.win_landing .landing_content {
+    position: relative;
+    width: 100%;
+}
+
+.win_landing .landing_content .desk_heading {
+    display: none;
+}
+
+.win_landing .landing_content .desk_heading .heading_img {
+    display: block;
+    width: 100%;
+}
+
+.win_landing .landing_content .mobile_heading, .win_landing .landing_content .mobile_heading div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.win_landing .landing_content .mobile_heading {
+    padding-bottom: 93px;
+}
+
+.win_landing .landing_content .mobile_heading .heading_img {
+    display: block;
+    width: 100%;
+}
+
+.win_landing .landing_content .mobile_heading .m_hero_text {
+    padding-top: 62px;
+}
+
+.win_landing .mobile_heading .hero_text { 
+    padding-bottom: 25px;
+}
+
+.win_landing .landing_content .mobile_padding {
+    padding-left: 12.987vw;
+    padding-right: 12.987vw;
+}
+
+.win_landing .landing_content .devices_wrapper, .win_landing .landing_content .message_mod, .win_landing .landing_content .ms365_mod, .win_landing .landing_content .partner_mod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.win_landing .landing_content .devices_wrapper {
+    padding-bottom: 100px;
+}
+
+.win_landing .landing_content .devices_wrapper .subheading {
+    font-size: 28px;
+}
+
+.win_landing .landing_content .message_mod {
+    padding-bottom: 100px;
+}
+
+.win_landing .landing_content .body_mod {
+    padding-top: 62px;
+    padding-bottom: 50px;
+}
+
+.win_landing .landing_content .body_mod sup {
+    font-size: 10px;
+}
+
+.win_landing .ms_body1 sup {
+    font-size: 10px;
+}
+
+.win_landing .landing_content .container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container p {
+    margin-bottom: 35px;
+}
+
+.win_landing .landing_content .reverse {
+    flex-direction: column-reverse;
+} 
+
+.win_landing .landing_content .container .mob_img{
+    display: block;
+    width: 100%;
+}
+
+.win_landing .landing_content .container .desk_img{
+    display: none;
+}
+
+.win_landing .landing_content .left_wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.win_landing .landing_content .right_wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.win_landing .landing_content .left_wrapper div, .win_landing .landing_content .right_wrapper div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.win_landing .landing_content .ms365_mod .ms365_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 46px;
+    padding-bottom: 98px;
+}
+
+.win_landing .landing_content .mobile_ms365 {
+    width: 100%;
+    padding: 0px 12px 57px;
+    text-align: left;
+}
+
+.win_landing .landing_content .mobile_ms365 .m_premium {
+    margin-bottom: 20px;
+}
+
+.win_landing .landing_content .mobile_ms365 img {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.win_landing .landing_content .mobile_ms365 div {
+    margin: 0px 21px;
+    padding: 40px 0px;
+}
+
+.win_landing .landing_content .mobile_ms365 h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.win_landing .landing_content .desk_ms365 {
+    display: none;
+}
+
+.win_landing .landing_content .desk_ms365 .ms_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.win_landing .landing_content .desk_ms365 .ms365_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.win_landing .landing_content .desk_ms365 .ms365_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.win_landing .landing_content .desk_ms365 .ms365_img img {
+    display: block;
+}
+
+.win_landing .landing_content .partner_mod .left_wrapper {
+    padding: 62px 65px 100px;
+}
+
+.win_landing .landing_content .partner_mod .left_wrapper p {
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.win_landing .landing_content .additional_mod {
+    padding-top: 0px;
+}
+
+.win_landing .landing_content .additional_mod .left_wrapper {
+    background: #082444;
+    padding: 30px 30px 75px;
+}
+
+.win_landing .landing_content .additional_mod .subheading {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.win_landing .landing_content .additional_mod .left_wrapper p {
+    text-align: justify;
+}
+
+.win_landing .landing_content .social_media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0px 30px 20px;
+}
+
+.win_landing .landing_content .recycling_mod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 90px 30px;
+}
+
+.win_landing .landing_content .recycling_mod .subheading {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.win_landing .landing_content .recycling_mod a {
+    color: #b9d4e4;
+}
+
+.win_landing .landing_content .footnotes {
+    background: #1b191c;
+    padding: 23px 30px;
+}
+
+.win_landing .landing_content .footnotes p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.win_landing .landing_content .footnotes a {
+    color: #FFFFFF;
+}
+
+.win_landing .heading {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.win_landing .subheading {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.win_landing .body_text {
+    font-size: 15px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    border: white 1px solid;
+    border-radius: 8px;
+    background: transparent;
+    color: #FFFFFF;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 18px;
+    padding: 0px 39px;
+    cursor: pointer;
+}
+
+.watch_button, .cta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: #FFFFFF;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.button img, .watch_button img {
+    display: block;
+    width: 9px;
+    height: 12px;
+    margin-right: 6px;
+    padding: 0px;
+}
+
+.cta img {
+    display: block;
+    width: 10px;
+    height: 16px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+hr {
+    height: 1px;
+    background-color: #FFFFFF;
+    border: none;
+    margin: 0px 30px;
+}
+
+.desktop_hr {
+    display: none;
+}
+
+.win_landing .landing_content .devices_wrapper .carousel_wrapper {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.win_landing .landing_content .devices_wrapper .devices_carousel {
+    width: 100%;
+    margin: 0px;
+}
+
+.slick-next {
+    background-color: transparent;
+    right: 2.132vw;
+    top: 28.046vw;
+    border-radius: 4.453vw;
+}
+
+.slick-prev {
+    background-color: transparent;
+    z-index: 1;
+    left: 1.855vw;
+    top: 28.046vw;
+    border-radius: 4.453vw;
+}
+
+.control-c {
+    width: 8.905vw;
+    height: 8.905vw;
+}
+
+.carousel_wrapper .slick-dots {
+    bottom: 0px;
+    top: 56.586vw;
+}
+
+.carousel_wrapper .slick-dots li {
+    width: 21.336vw;
+    height: 0.928vw;
+    margin: 0px 0.928vw;
+}
+
+.carousel_wrapper .slick-dots li button:before {
+    font-size: 10px;
+    color:white;
+}
+
+.win_landing .landing_content .devices_wrapper .devices_carousel .carousel_tile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.win_landing .landing_content .devices_wrapper .devices_carousel .carousel_tile div {
+    background-color: #052442;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 37px 30px;
+    text-align: left;
+}
+
+.win_landing .landing_content .devices_wrapper .new {
+    font-size: 18px;
+    color: #052442;
+    font-weight: bold;
+    background-color: #fed731;
+    padding: 2px 6px;
+    margin-bottom: 24px;
+}
+
+.win_landing .landing_content .devices_wrapper .model {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.win_landing .landing_content .devices_wrapper .price {
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+.win_landing .landing_content .devices_wrapper .description {
+    width: 62.152vw;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+
+.win_landing .landing_content .devices_wrapper .cta {
+    font-size: 18px;
+}
+
+.slick-dots li img:nth-child(1) {
+    display: block;
+    width: 21.336vw;
+    height: 0.928vw;
+}
+
+.slick-dots li img:nth-child(2) {
+    display: none;
+}
+
+.slick-dots li.slick-active img:nth-child(1) {
+    display: none;
+}
+
+.slick-dots li.slick-active img:nth-child(2) {
+    display: block;
+    width: 21.336vw;
+    height: 0.928vw;
+}
+
+.win_landing .landing_content .mobile_heading sup, .win_landing .landing_content .devices_wrapper sup, .win_landing .landing_content .message_mod sup {
+    line-height: 10px;
+    font-size: 10px;
+}
+
+.win_landing .pink_text {
+    color: #f47de9;
+}
+
+.win_landing .pink_bg {
+    border: 4px solid #f47de9;
+}

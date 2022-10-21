@@ -1,0 +1,708 @@
+@media screen and (min-width: 767px) {
+    .win_landing .header {
+        height: 3.750vw;
+        justify-content: flex-end;
+        padding: 0px;
+        padding-right: 8.229vw;
+    }
+
+    .win_landing .header .logo {
+        width: 8.594vw;
+    }
+
+    .win_landing .header .win_logo {
+        display: none;
+    }
+
+    .win_landing .landing_content .desk_heading .desk_hero_text {
+        width: 30.208vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 9.635vw;
+        margin-top: 12.500vw;
+    }
+
+    .win_landing .landing_content .desk_heading {
+        display: block;
+        width: 100%;
+    }
+
+    .win_landing .landing_content .mobile_heading {
+        display: none;
+    }
+
+    .win_landing .landing_content .devices_wrapper {
+        padding-top: 6.510vw;
+        padding-bottom: 5.208vw;
+    }
+
+    .win_landing .landing_content .devices_carousel {
+        margin-top: 7.292vw;
+        margin-bottom: 2.604vw;
+    }
+
+    .win_landing .landing_content .mobile_padding {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .win_landing .landing_content .message_mod {
+        padding-bottom: 0px;
+    }
+
+    .win_landing .landing_content .message_mod .body_text {
+        width: 33.854vw;
+    }
+
+    .win_landing .landing_content .body_mod {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .win_landing .landing_content .body_mod sup {
+        font-size: 0.521vw;
+    }
+
+    .win_landing .landing_content .body_mod .out_box {
+        width: 31.771vw;
+    }
+
+    .win_landing .landing_content .container {
+        padding: 6.615vw 0px;
+    }
+
+    .win_landing .landing_content .left_wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 50%;
+        justify-content: center;
+        padding-right: 1.615vw;
+    }
+
+    .win_landing .landing_content .right_wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50%;
+        justify-content: center;
+        padding-left: 1.615vw;
+    }
+
+    .win_landing .landing_content .left_wrapper div, .win_landing .landing_content .right_wrapper div{
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .win_landing .landing_content .left_wrapper div, .win_landing .landing_content .desk_ms365 .ms365_text {
+        padding-left: 9.635vw;
+    }
+
+    .win_landing .landing_content .ms365_mod .ms365_heading {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .win_landing .landing_content .desk_ms365 .ms365_text {
+        text-align: left;
+        width: 26.979vw;
+        padding-right: 1.771vw;
+    }
+
+    .win_landing .landing_content .desk_ms365 .ms365_text p {
+        font-size: 0.729vw;
+        line-height: 0.938vw;
+    }
+
+    .win_landing .landing_content .right_wrapper div{
+        padding-right: 14.063vw;
+    }
+
+    .win_landing .landing_content .container {
+        flex-direction: inherit;
+    }
+
+    .win_landing .landing_content .container .mob_img, .win_landing .landing_content .mobile_ms365{
+        display: none;
+    }
+    
+    .win_landing .landing_content .container .desk_img{
+        display: block;
+        width: 100%;
+    }
+
+    .win_landing .landing_content .desk_ms365 {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 4.688vw;
+    }
+
+    .win_landing .landing_content .desk_ms365 .office_home {
+        margin-top: 2.240vw;
+        margin-bottom: 6.250vw;
+    }
+
+    .win_landing .landing_content .desk_ms365 .ms365_img {
+        width: 64.688vw;;
+    }
+
+    .win_landing .landing_content .desk_ms365 .premium_apps{
+        width: 42.760vw;
+    }
+
+    .win_landing .landing_content .desk_ms365 .add_services{
+        width: 20.885vw;
+    }
+
+    .win_landing .landing_content .desk_ms365 .classic_apps{
+        width: 64.688vw;
+    }
+
+    .win_landing .landing_content .ms365_mod {
+        margin-top: 6.406vw;
+    }
+
+    .win_landing .landing_content .partner_mod .right_wrapper{
+        padding-right: 8.333vw;
+    }
+
+    .win_landing .landing_content .partner_mod .left_wrapper {
+        padding: 0px;
+    }
+
+    .win_landing .landing_content .partner_mod .left_wrapper p {
+        text-align: left;
+    }
+
+    .win_landing .landing_content .additional_mod {
+        width: 83.333vw; 
+        padding-top: 0px;
+        margin: 0px 8.333vw; 
+    }
+
+    .win_landing .landing_content .additional_mod .left_wrapper {
+        width: 61.823vw;
+        padding: 0px;
+        border-start-start-radius: 0.521vw;
+        border-end-start-radius: 0.521vw;
+    }
+
+    .win_landing .landing_content .additional_mod .left_wrapper div {
+        padding-left: 25px;
+    }
+
+    .win_landing .landing_content .additional_mod .left_wrapper p {
+        text-align: left;
+    }
+
+    .win_landing .landing_content .additional_mod .right_wrapper {
+        width: 19.896vw;
+        padding-left: 0px;
+    }
+
+    .win_landing .landing_content .additional_mod .desk_img {
+        width: 19.896vw;
+        height: 11.979vw;
+    }
+
+    .win_landing .landing_content .social_media {
+        justify-content: flex-start;
+        width: 100%;
+        margin: 0px; 
+        padding: 0px;
+        padding-bottom: 1.198vw;
+    }
+
+    .win_landing .landing_content .social_media img {
+        width: 1.667vw;
+        margin-right: 1.042vw;
+    }
+
+    .win_landing .landing_content .recycling_mod {
+        width: 83.333vw; 
+        margin: 4.167vw 8.333vw; 
+    }
+
+    .win_landing .landing_content .footnotes {
+        padding: 1.198vw 9.583vw;
+    }
+
+    .win_landing .landing_content .footnotes p {
+        font-size: 0.729vw;
+        line-height: 0.938vw;
+    }
+
+    .win_landing .heading {
+        font-size: 2.396vw
+    }
+    
+    .win_landing .subheading, .win_landing .landing_content .devices_wrapper .subheading {
+        font-size: 2.396vw
+    }
+
+    .win_landing .landing_content .devices_wrapper .body_text {
+        width: 50.156vw;
+    }
+    
+    .win_landing .body_text {
+        font-size: 0.938vw;
+        line-height: 1.250vw;
+    }
+
+    .win_landing .landing_content .additional_mod .subheading {
+        font-size: 1.875vw;
+        line-height: 2.292vw;
+        margin-bottom: 0.781vw;
+    }
+
+    .win_landing .landing_content .additional_mod p {
+        margin-bottom: 0.781vw;
+        width: 97%;
+    }
+    
+    .win_landing .landing_content .recycling_mod .subheading {
+        font-size: 1.875vw;
+        line-height: 2.292vw;
+        margin-bottom: 1.823vw;
+    }
+
+    .message_mod p, .container p, .win_landing .landing_content .partner_mod .left_wrapper p {
+        margin-bottom: 1.563vw;
+    }
+
+    .container p { 
+        max-width: 38.177vw;
+    }
+
+    .win_landing .hero_text {
+        width: 27.083vw;
+        margin-bottom: 2.083vw;
+    }
+
+    .button, .watch_button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 3.125vw;
+        border: white 0.052vw solid;
+        border-radius: 0.417vw;
+        font-size: 0.938vw;
+        padding: 0px 2.031vw;
+    }
+
+    .cta {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.938vw;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .button img, .watch_button img {
+        display: block;
+        width: 0.729vw;
+        height: 0.833vw;
+        margin-right: 0.521vw;
+        padding: 0px;
+    }
+
+    .cta img {
+        display: block;
+        width: 0.521vw;
+        height: 0.833vw;
+        margin-left: 0.521vw;
+        padding: 0px;
+    }
+
+    .win_landing .ms_body1 {
+        width: 48.385vw;
+        margin-bottom: 1.302vw;
+    }
+
+    .win_landing .ms_body1 sup {
+        font-size: 0.521vw;
+    }
+
+    .win_landing .ms_body2 {
+        width: 51.094vw;
+        margin-bottom: 1.302vw;
+    }
+
+    hr {
+        margin: 0px 8.333vw;
+    }
+
+    .desktop_hr {
+        display: block;
+    }
+
+    .win_landing .landing_content .devices_wrapper .carousel_wrapper {
+        margin-top: 7.031vw;
+    }
+
+    .win_landing .landing_content .devices_wrapper .devices_carousel {
+        padding: 0px 7.708vw;
+    }
+
+    .win_landing .landing_content .devices_wrapper .devices_carousel .carousel_tile div {
+        border-end-start-radius: 0.417vw;
+        border-end-end-radius: 0.417vw;
+    }
+
+    .win_landing .landing_content .devices_wrapper .devices_carousel .tile_wrapper {
+        padding: 0px 0.625vw;
+    }
+
+    .win_landing .landing_content .devices_wrapper .new {
+        font-size: 0.781vw;
+        padding: 1px 6px;
+        margin-bottom: 1.250vw;
+    }
+    
+    .win_landing .landing_content .devices_wrapper .model {
+        font-size: 0.938vw;
+        margin-bottom: 0.521vw;
+    }
+    
+    .win_landing .landing_content .devices_wrapper .price {
+        font-size: 0.938vw;
+        margin-bottom: 1.458vw;
+    }
+    
+    .win_landing .landing_content .devices_wrapper .description {
+        font-size: 0.781vw;
+        line-height: 0.938vw;
+        margin-bottom: 1.563vw;
+        width: auto;
+    }
+    
+    .win_landing .landing_content .devices_wrapper .cta {
+        font-size: 0.938vw;
+    }
+
+    .win_landing .landing_content .desk_heading sup, .win_landing .landing_content .devices_wrapper sup, .win_landing .landing_content .message_mod sup {
+        line-height: 0.833vw;
+        font-size: 0.625vw;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .win_landing .header {
+        height: 72px;
+        padding-right: 158px;
+    }
+
+    .win_landing .header .logo {
+        width: 165px;
+    }
+
+    .win_landing .landing_content .desk_heading .desk_hero_text {
+        width: 579px;
+        margin-left: 185px;
+        margin-top: 240px;
+    }
+
+    .win_landing .landing_content .devices_wrapper {
+        padding-top: 125px;
+        padding-bottom: 100px;
+    }
+
+    .win_landing .landing_content .devices_carousel {
+        margin-top: 140px;
+        margin-bottom: 50px;
+    }
+
+    .win_landing .landing_content .message_mod .body_text {
+        width: 650px;
+    }
+
+    .win_landing .landing_content .body_mod sup {
+        font-size: 10px;
+    }
+
+    .win_landing .landing_content .body_mod .out_box {
+        width: 610px;
+    }
+
+    .win_landing .landing_content .container {
+        padding: 127px 0px;
+    }
+
+    .win_landing .landing_content .left_wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 50%;
+        justify-content: center;
+        padding-right: 31px;
+    }
+
+    .win_landing .landing_content .right_wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50%;
+        justify-content: center;
+        padding-left: 31px;
+    }
+
+    .win_landing .landing_content .left_wrapper div, .win_landing .landing_content .right_wrapper div{
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .win_landing .landing_content .left_wrapper div, .win_landing .landing_content .desk_ms365 .ms365_text {
+        padding-left: 185px;
+    }
+
+    .win_landing .landing_content .desk_ms365 .ms365_text {
+        width: 518px;
+        padding-right: 34px;
+    }
+
+    .win_landing .landing_content .desk_ms365 .ms365_text p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .win_landing .landing_content .right_wrapper div{
+        padding-right: 270px;
+    }
+
+    .win_landing .landing_content .desk_ms365 {
+        display: block;
+        width: 100%;
+        margin-top: 90px;
+    }
+
+    .win_landing .landing_content .desk_ms365 .office_home {
+        margin-top: 43px;
+        margin-bottom: 120px;
+    }
+
+    .win_landing .landing_content .desk_ms365 .ms365_img {
+        width: 1242px;
+    }
+
+    .win_landing .landing_content .desk_ms365 .premium_apps{
+        width: 821px;
+    }
+
+    .win_landing .landing_content .desk_ms365 .add_services{
+        width: 401px;
+    }
+
+    .win_landing .landing_content .desk_ms365 .classic_apps{
+        width: 1242px;
+    }
+
+    .win_landing .landing_content .ms365_mod {
+        margin-top: 123px;
+    }
+
+    .win_landing .landing_content .partner_mod .right_wrapper{
+        padding-right: 160px;
+    }
+
+    .win_landing .landing_content .additional_mod {
+       width: 1600px; 
+       padding-top: 0px;
+       margin: 0px 160px; 
+    }
+
+    .win_landing .landing_content .additional_mod .left_wrapper {
+        width: 1187px;
+        border-start-start-radius: 10px;
+        border-end-start-radius: 10px;
+    }
+
+    .win_landing .landing_content .additional_mod .left_wrapper div {
+        padding-left: 25px;
+    }
+
+    .win_landing .landing_content .additional_mod .right_wrapper {
+        width: 382px;
+        padding-left: 0px;
+    }
+
+    .win_landing .landing_content .additional_mod .desk_img {
+        width: 382px;
+        height: 230px;
+    }
+
+    .win_landing .landing_content .social_media {
+        padding-bottom: 23px;
+    }
+
+    .win_landing .landing_content .social_media img {
+        width: 32px;
+        margin-right: 20px;
+    }
+
+    .win_landing .landing_content .recycling_mod {
+        width: 1600px;
+        margin: 80px 160px; 
+    }
+
+    .win_landing .landing_content .footnotes {
+        padding: 23px 184px;
+    }
+
+    .win_landing .landing_content .footnotes p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .win_landing .heading {
+        font-size: 46px;
+    }
+    
+    .win_landing .subheading, .win_landing .landing_content .devices_wrapper .subheading {
+        font-size: 46px;
+    }
+
+    .win_landing .landing_content .devices_wrapper .body_text {
+        width: 963px;
+    }
+    
+    .win_landing .body_text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .win_landing .landing_content .additional_mod .subheading {
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 15px;
+    }
+
+    .win_landing .landing_content .additional_mod p {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    
+    .win_landing .landing_content .recycling_mod .subheading {
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 35px;
+    }
+
+    .message_mod p, .container p, .win_landing .landing_content .partner_mod .left_wrapper p {
+        margin-bottom: 30px;
+    }
+
+    .container p { 
+        max-width: 733px;
+    }
+
+    .win_landing .hero_text {
+        width: 520px;
+        margin-bottom: 40px;
+    }
+
+    .button, .watch_button {
+        height: 60px;
+        border: white 1px solid;
+        border-radius: 8px;
+        font-size: 18px;
+        padding: 0px 39px;
+    }
+
+    .cta {
+        font-size: 18px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .button img, .watch_button img {
+        display: block;
+        width: 14px;
+        height: 16px;
+        margin-right: 10px;
+        padding: 0px;
+    }
+
+    .cta img {
+        display: block;
+        width: 10px;
+        height: 16px;
+        margin-left: 10px;
+        padding: 0px;
+    }
+
+    .win_landing .ms_body1 {
+        width: 929px;
+        margin-bottom: 25px;
+    }
+
+    .win_landing .ms_body1 sup {
+        font-size: 10px;
+    }
+
+    .win_landing .ms_body2 {
+        width: 981px;
+        margin-bottom: 25px;
+    }
+
+    hr {
+        margin: 0px 160px;
+    }
+    
+    .win_landing .landing_content .devices_wrapper .carousel_wrapper {
+        margin-top: 135px;
+    }
+
+    .win_landing .landing_content .devices_wrapper .devices_carousel {
+        padding: 0px 148px;
+    }
+
+    .win_landing .landing_content .devices_wrapper .devices_carousel .carousel_tile div {
+        border-end-start-radius: 8px;
+        border-end-end-radius: 8px;
+    }
+
+    .win_landing .landing_content .devices_wrapper .devices_carousel .tile_wrapper {
+        padding: 0px 12px;
+    }
+
+    .win_landing .landing_content .devices_wrapper .new {
+        font-size: 15px;
+        padding: 1px 6px;
+        margin-bottom: 24px;
+    }
+    
+    .win_landing .landing_content .devices_wrapper .model {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .win_landing .landing_content .devices_wrapper .price {
+        font-size: 18px;
+        margin-bottom: 28px;
+    }
+    
+    .win_landing .landing_content .devices_wrapper .description {
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 30px;
+    }
+    
+    .win_landing .landing_content .devices_wrapper .cta {
+        font-size: 18px;
+    }
+
+    .win_landing .landing_content .desk_heading sup, .win_landing .landing_content .devices_wrapper sup, .win_landing .landing_content .message_mod sup {
+        line-height: 16px;
+        font-size: 12px;
+    }
+}
